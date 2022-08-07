@@ -1,0 +1,818 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.carousel .carousel-item {
+  height: 590px !important;
+}
+
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em 0;
+  background-color: black;
+  color: #fff;
+  letter-spacing: 15px;
+}
+
+.source {
+  background-color: black;
+  margin-bottom: 1em;
+  margin-top: -10px;
+  padding: 0 0 1em;
+}
+
+.source a {
+  color: #FA8CD3;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.source a:hover {
+  color: #923F10;
+  opacity: 1;
+}
+
+.sorting {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.sorting select {
+  border: none;
+  margin-left: 1em;
+  width: 10em;
+}
+
+.sorting label, .sorting p {
+  color: #9b9898;
+}
+
+/*-------------------------------------------
+    LEFT SIDE | PRODUCT NAVIGATION LINK
+-------------------------------------------*/
+.prod-nav {
+  border-right: 1px solid #d6a7a7;
+  padding-bottom: 4.5em;
+}
+
+.prod-nav .input-group {
+  margin-top: 1em;
+}
+
+.prod-nav h5 {
+  margin-top: 2em;
+}
+
+.prod-nav .btn {
+  background-color: #923F10;
+  color: #fff;
+}
+
+.prod-nav .btn:hover, .prod-nav .btn:active, .prod-nav .btn:visited, .prod-nav .btn:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.prod-nav a {
+  padding-bottom: 2em;
+  font-size: 14px;
+  color: #9b9898;
+}
+
+/*-------------------------------------------
+    RIGHT SIDE | PRODUCT CARDS
+-------------------------------------------*/
+.products-card {
+  width: 82%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-products {
+  padding: 0 0 54px;
+}
+
+.section-products .header {
+  margin-bottom: 50px;
+}
+
+.section-products .header h2 {
+  font-size: 2.3em;
+  font-weight: 400;
+  color: #444444;
+}
+
+.section-products .single-product {
+  margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+  position: relative;
+  height: 290px;
+  max-height: 290px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/**----------------------------------------------
+                LIVING ROOM PAGE
+-----------------------------------------------**/
+.section-products #product-1 .part-1::before {
+  background: url("../Images/LivingRoom/Collection1.png") no-repeat center;
+  background-size: cover;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+  background: url("../Images/LivingRoom/Collection2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+  background: url("../Images/LivingRoom/Collection3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+  background: url("../Images/LivingRoom/Collection4.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-5 .part-1::before {
+  background: url("../Images/LivingRoom/Collection5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-6 .part-1::before {
+  background: url("../Images/LivingRoom/Collection6.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-7 .part-1::before {
+  background: url("../Images/LivingRoom/Collection7.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-8 .part-1::before {
+  background: url("../Images/LivingRoom/Collection8.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair-1 .part-1::before {
+  background: url("../Images/LivingRoom/Chair1.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair-2 .part-1::before {
+  background: url("../Images/LivingRoom/Chair2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair-3 .part-1::before {
+  background: url("../Images/LivingRoom/Chair3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair-4 .part-1::before {
+  background: url("../Images/LivingRoom/Chair4.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair-5 .part-1::before {
+  background: url("../Images/LivingRoom/Chair5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair-6 .part-1::before {
+  background: url("../Images/LivingRoom/Chair6.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair-7 .part-1::before {
+  background: url("../Images/LivingRoom/Chair7.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair-8 .part-1::before {
+  background: url("../Images/LivingRoom/Chair8.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-1 .part-1::before {
+  background: url("../Images/LivingRoom/Table1.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-2 .part-1::before {
+  background: url("../Images/LivingRoom/Table2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-3 .part-1::before {
+  background: url("../Images/LivingRoom/Table3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-4 .part-1::before {
+  background: url("../Images/LivingRoom/Table4.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-5 .part-1::before {
+  background: url("../Images/LivingRoom/Table5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-6 .part-1::before {
+  background: url("../Images/LivingRoom/Table6.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-7 .part-1::before {
+  background: url("../Images/LivingRoom/Table7.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chest-1 .part-1::before {
+  background: url("../Images/LivingRoom/chest1.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chest-2 .part-1::before {
+  background: url("../Images/LivingRoom/chest2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chest-3 .part-1::before {
+  background: url("../Images/LivingRoom/chest3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chest-4 .part-1::before {
+  background: url("../Images/LivingRoom/chest4.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chest-5 .part-1::before {
+  background: url("../Images/LivingRoom/chest5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chest-6 .part-1::before {
+  background: url("../Images/LivingRoom/chest6.png") no-repeat center;
+  background-size: cover;
+}
+
+/**----------------------------------------------
+                BEDROOM PAGE
+-----------------------------------------------**/
+.section-products #bed-1 .part-1::before {
+  background: url("../Images/Bedroom/bedframe1.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #bed-2 .part-1::before {
+  background: url("../Images/Bedroom/bedframe2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #bed-3 .part-1::before {
+  background: url("../Images/Bedroom/bedframe3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #bed-4 .part-1::before {
+  background: url("../Images/Bedroom/bedframe4.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #bed-5 .part-1::before {
+  background: url("../Images/Bedroom/bedframe5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #bed-6 .part-1::before {
+  background: url("../Images/Bedroom/bedframe6.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #bed-7 .part-1::before {
+  background: url("../Images/Bedroom/header1.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #bed-8 .part-1::before {
+  background: url("../Images/Bedroom/header2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #bed-9 .part-1::before {
+  background: url("../Images/Bedroom/header3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #wd-1 .part-1::before {
+  background: url("../Images/Bedroom/wardrobe1.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #wd-2 .part-1::before {
+  background: url("../Images/Bedroom/wardrobe2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #wd-3 .part-1::before {
+  background: url("../Images/Bedroom/wardrobe3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #wd-4 .part-1::before {
+  background: url("../Images/Bedroom/wardrobe4.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #wd-5 .part-1::before {
+  background: url("../Images/Bedroom/wardrobe5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #wd-6 .part-1::before {
+  background: url("../Images/Bedroom/bedframe6.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #cabinet-1 .part-1::before {
+  background: url("../Images/Bedroom/cabinet1.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #cabinet-2 .part-1::before {
+  background: url("../Images/Bedroom/cabinet2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #cabinet-3 .part-1::before {
+  background: url("../Images/Bedroom/cabinet3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #cabinet-4 .part-1::before {
+  background: url("../Images/Bedroom/dresser1.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #cabinet-5 .part-1::before {
+  background: url("../Images/Bedroom/dresser2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #cabinet-6 .part-1::before {
+  background: url("../Images/Bedroom/dresser3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #cabinet-7 .part-1::before {
+  background: url("../Images/Bedroom/dresser4.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table1 .part-1::before {
+  background: url("../Images/Bedroom/table1.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table2 .part-1::before {
+  background: url("../Images/Bedroom/table2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table3 .part-1::before {
+  background: url("../Images/Bedroom/table3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table4 .part-1::before {
+  background: url("../Images/Bedroom/table4.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table5 .part-1::before {
+  background: url("../Images/Bedroom/table5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair1 .part-1::before {
+  background: url("../Images/Bedroom/chair1.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair2 .part-1::before {
+  background: url("../Images/Bedroom/chair2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair3 .part-1::before {
+  background: url("../Images/Bedroom/chair3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair4 .part-1::before {
+  background: url("../Images/Bedroom/chair4.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair5 .part-1::before {
+  background: url("../Images/Bedroom/chair5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair6 .part-1::before {
+  background: url("../Images/Bedroom/chair6.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair7 .part-1::before {
+  background: url("../Images/Bedroom/chair7.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #chair8 .part-1::before {
+  background: url("../Images/Bedroom/chair8.png") no-repeat center;
+  background-size: cover;
+}
+
+/**----------------------------------------------
+                KITCHEN PAGE
+-----------------------------------------------**/
+.section-products #set-1 .part-1::before {
+  background: url("../Images/kitchen/set1.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-2 .part-1::before {
+  background: url("../Images/kitchen/set2.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-3 .part-1::before {
+  background: url("../Images/kitchen/set3.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-4 .part-1::before {
+  background: url("../Images/kitchen/set4.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-5 .part-1::before {
+  background: url("../Images/kitchen/set5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-6 .part-1::before {
+  background: url("../Images/kitchen/set6.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-7 .part-1::before {
+  background: url("../Images/kitchen/set7.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-8 .part-1::before {
+  background: url("../Images/kitchen/set8.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-9 .part-1::before {
+  background: url("../Images/kitchen/set9.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-10 .part-1::before {
+  background: url("../Images/kitchen/set10.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-11 .part-1::before {
+  background: url("../Images/kitchen/set11.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-12 .part-1::before {
+  background: url("../Images/kitchen/set12.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #set-13 .part-1::before {
+  background: url("../Images/kitchen/set13.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-1 .part-1::before {
+  background: url("../Images/kitchen/table1.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-2 .part-1::before {
+  background: url("../Images/kitchen/table2.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-3 .part-1::before {
+  background: url("../Images/kitchen/table3.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-4 .part-1::before {
+  background: url("../Images/kitchen/table4.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-5 .part-1::before {
+  background: url("../Images/kitchen/table5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-6 .part-1::before {
+  background: url("../Images/kitchen/table6.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-7 .part-1::before {
+  background: url("../Images/kitchen/table7.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-8 .part-1::before {
+  background: url("../Images/kitchen/table8.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-9 .part-1::before {
+  background: url("../Images/kitchen/table9.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-10 .part-1::before {
+  background: url("../Images/kitchen/table10.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #table-11 .part-1::before {
+  background: url("../Images/kitchen/table11.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #c-1 .part-1::before {
+  background: url("../Images/kitchen/chair1.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #c-2 .part-1::before {
+  background: url("../Images/kitchen/chair2.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #c-3 .part-1::before {
+  background: url("../Images/kitchen/chair3.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #c-4 .part-1::before {
+  background: url("../Images/kitchen/chair4.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #c-5 .part-1::before {
+  background: url("../Images/kitchen/chair5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #c-6 .part-1::before {
+  background: url("../Images/kitchen/chair6.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #c-7 .part-1::before {
+  background: url("../Images/kitchen/chair7.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #c-8 .part-1::before {
+  background: url("../Images/kitchen/chair8.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #kc-1 .part-1::before {
+  background: url("../Images/kitchen/cabinet1.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #kc-2 .part-1::before {
+  background: url("../Images/kitchen/cabinet2.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #kc-3 .part-1::before {
+  background: url("../Images/kitchen/cabinet3.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #kc-4 .part-1::before {
+  background: url("../Images/kitchen/cabinet4.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #kc-5 .part-1::before {
+  background: url("../Images/kitchen/cabinet5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #kc-6 .part-1::before {
+  background: url("../Images/kitchen/cabinet6.PNG") no-repeat center;
+  background-size: cover;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #ffffff;
+  background-color: #923F10;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+  left: 0;
+  background-color: #5d2607;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+.section-products .single-product .part-1 ul {
+  position: absolute;
+  bottom: -41px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  -webkit-transition: bottom 0.5s, opacity 0.5s;
+  transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ffffff;
+  color: #444444;
+  text-align: center;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+  color: #923F10;
+}
+
+.section-products .single-product .part-2 .product-title {
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+  position: relative;
+  padding: 0 7px;
+  margin-right: 2px;
+  opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #444444;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+/*------------------------------------------
+               MEDIA QUERIES
+------------------------------------------*/
+@media only screen and (max-width: 990px) {
+  .sorting {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .products-card {
+    width: 100%;
+  }
+  .sorting .sortopt {
+    padding: 1.6em;
+  }
+}
+
+h1 {
+  padding: 0.4em;
+  letter-spacing: 10px;
+}
+
+@media only screen and (max-width: 870px) {
+  .carousel .carousel-item {
+    height: 450px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel .carousel-item {
+    height: 250px !important;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .section-products .single-product {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 5px;
+  }
+  .section-products .header h2 {
+    font-size: 1.6em;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0.7em 0;
+  }
+  .section-products .single-product {
+    height: 70%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  .section-products .single-product .part-1::before {
+    width: 100%;
+    height: 80%;
+  }
+  .section-products .single-product .part-2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .carousel .carousel-item {
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=Product.css.map */

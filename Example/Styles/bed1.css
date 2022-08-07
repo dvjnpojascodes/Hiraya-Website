@@ -1,0 +1,321 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+.card {
+  border: none;
+  background-color: #eee;
+}
+
+.product {
+  background-color: #eee;
+}
+
+.brand {
+  font-size: 13px;
+}
+
+.act-price {
+  color: red;
+  font-weight: 700;
+}
+
+.dis-price {
+  text-decoration: line-through;
+}
+
+.about {
+  font-size: 14px;
+}
+
+.color {
+  margin-bottom: 10px;
+}
+
+label.radio {
+  cursor: pointer;
+}
+
+label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+label.radio span {
+  padding: 2px 9px;
+  border: 2px solid #923F10;
+  display: inline-block;
+  color: #923F10;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+label.radio input:checked + span {
+  border-color: #923F10;
+  background-color: #923F10;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #923F10 !important;
+  border-color: #923F10 !important;
+}
+
+.btn-danger:hover {
+  background-color: #923F10 !important;
+  border-color: #923F10 !important;
+}
+
+.btn-danger:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.cart i {
+  margin-right: 10px;
+}
+
+.fa-heart,
+.fa-share {
+  padding-left: 10px;
+}
+
+/*-------------------------------------------
+         Related Products
+-------------------------------------------*/
+.products-card {
+  width: 100%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-products {
+  padding: 0 0 54px;
+}
+
+.section-products .header {
+  margin-bottom: 50px;
+}
+
+.section-products .header h2 {
+  font-size: 2.3em;
+  font-weight: 400;
+  color: #444444;
+}
+
+.section-products .single-product {
+  margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+  position: relative;
+  height: 290px;
+  max-height: 290px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/**----------------------------------------------
+               Product Cards
+-----------------------------------------------**/
+.section-products #product-1 .part-1::before {
+  background: url("../Images/Bedroom/bedframe3.png") no-repeat center;
+  background-size: cover;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+  background: url("../Images/Bedroom/bedframe6.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+  background: url("../Images/Bedroom/cabinet3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+  background: url("../Images/Bedroom/chair3.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-5 .part-1::before {
+  background: url("../Images/Bedroom/chair5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-6 .part-1::before {
+  background: url("../Images/Bedroom/table4.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-7 .part-1::before {
+  background: url("../Images/Bedroom/wardrobe2.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-8 .part-1::before {
+  background: url("../Images/Bedroom/wardrobe5.png") no-repeat center;
+  background-size: cover;
+}
+
+.section-products .single-product .part-1 ul {
+  position: absolute;
+  bottom: -41px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  -webkit-transition: bottom 0.5s, opacity 0.5s;
+  transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ffffff;
+  color: #444444;
+  text-align: center;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+  color: #923F10;
+}
+
+.section-products .single-product .part-2 .product-title {
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+  position: relative;
+  padding: 0 7px;
+  margin-right: 2px;
+  opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #444444;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+/*------------------------------------------
+               MEDIA QUERIES
+------------------------------------------*/
+@media only screen and (max-width: 990px) {
+  .sorting {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .products-card {
+    width: 100%;
+  }
+  .sorting .sortopt {
+    padding: 1.6em;
+  }
+}
+
+h1 {
+  padding: 0.4em;
+  letter-spacing: 10px;
+}
+
+@media only screen and (max-width: 870px) {
+  .carousel .carousel-item {
+    height: 450px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel .carousel-item {
+    height: 250px !important;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .section-products .single-product {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 5px;
+  }
+  .section-products .header h2 {
+    font-size: 1.6em;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0.7em 0;
+  }
+  .section-products .single-product {
+    height: 70%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  .section-products .single-product .part-1::before {
+    width: 100%;
+    height: 80%;
+  }
+  .section-products .single-product .part-2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .carousel .carousel-item {
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=bed1.css.map */

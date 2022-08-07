@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .carousel .carousel-item {
+    height: 590px !important;
+  }
+  
+  .carousel .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    width: 100% !important;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 1em 0;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 0.5em;
+    letter-spacing: 15px;
+  }
+
+.source {
+    background-color:  rgb(0,0,0);
+    margin-bottom: 1em;
+    margin-top: -20px;
+    padding: 0 0 1em;
+}
+
+.source a {
+  color: #FA8CD3;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.source a:hover {
+  color: #923F10; 
+  opacity: 1;
+}
+  
+  .sorting {
+    border-bottom: 1px solid #e7e7e7;
+  }
+  
+  .sorting select {
+    border: none;
+    margin-left: 1em;
+    width: 10em;
+  }
+  
+  .sorting label, .sorting p {
+    color: #9b9898;
+  }
+  
+  
+  /*-------------------------------------------
+      RIGHT SIDE | PRODUCT CARDS
+  -------------------------------------------*/
+  .products-card {
+    width: 100%;
+  }
+  
+  a,
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .section-products {
+    padding: 0 0 54px;
+  }
+  
+  .section-products .header {
+    margin-bottom: 50px;
+  }
+  
+  .section-products .header h2 {
+    font-size: 2.3em;
+    font-weight: 400;
+    color: #444444;
+  }
+  
+  .section-products .single-product {
+    margin-bottom: 26px;
+  }
+  
+  .section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .section-products .single-product .part-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  /**----------------------------------------------
+                 Decoration
+  -----------------------------------------------**/
+  .section-products #product-1 .part-1::before {
+    background: url("../Images/Decoration/Bambooroomdivider.png") no-repeat center;
+    background-size: cover;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .section-products #product-2 .part-1::before {
+    background: url("../Images/Decoration/bathroom-decorset.PNG") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-3 .part-1::before {
+    background: url("../Images/Decoration/Brown-Wicker-Basket.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-4 .part-1::before {
+    background: url("../Images/Decoration/CircleWood-Decoration.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-5 .part-1::before {
+    background: url("../Images/Decoration/Condements-Rack.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-6 .part-1::before {
+    background: url("../Images/Decoration/Containers.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-7 .part-1::before {
+    background: url("../Images/Decoration/DeskLamp.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-8 .part-1::before {
+    background: url("../Images/Decoration/FoodRack.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-9 .part-1::before {
+    background: url("../Images/Decoration/FoodRack2.png") no-repeat center;
+    background-size: cover;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .section-products #product-10 .part-1::before {
+    background: url("../Images/Decoration/Geometric-Decor.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-11 .part-1::before {
+    background: url("../Images/Decoration/HomePlanter.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-12 .part-1::before {
+    background: url("../Images/Decoration/Knife-Stand.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-13 .part-1::before {
+    background: url("../Images/Decoration/Round-Doormat.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-14 .part-1::before {
+    background: url("../Images/Decoration/S-Bookshelve.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-15 .part-1::before {
+    background: url("../Images/Decoration/shelf.PNG") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-16 .part-1::before {
+    background: url("../Images/Decoration/shelf2.PNG") no-repeat center;
+    background-size: cover;
+  }
+
+  .section-products #product-17 .part-1::before {
+    background: url("../Images/Decoration/shelf3.PNG") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-18 .part-1::before {
+    background: url("../Images/Decoration/shoerack1.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-19 .part-1::before {
+    background: url("../Images/Decoration/Wicker-Table-Lamp.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-20 .part-1::before {
+    background: url("../Images/Decoration/Wooden-Engraved-Vase.png") no-repeat center;
+    background-size: cover; 
+  }
+
+
+  .section-products #product-21 .part-1::before {
+    background: url("../Images/Decoration/WoodenLayer-GoldMirror.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-22 .part-1::before {
+    background: url("../Images/Decoration/Wooden-Rectangular-Dustbin.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .section-products #product-23 .part-1::before {
+    background: url("../Images/Decoration/Wooven-Basket.png") no-repeat center;
+    background-size: cover;
+  }
+
+
+
+  
+  .section-products .single-product .part-1 .discount,
+  .section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #923F10;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+  }
+  
+  .section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #5d2607;
+    font-weight: bold;
+    letter-spacing: 8px;
+  }
+  
+  .section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    -webkit-transition: bottom 0.5s, opacity 0.5s;
+    transition: bottom 0.5s, opacity 0.5s;
+  }
+  
+  .section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+  }
+  
+  .section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+  }
+  
+  .section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+  }
+  
+  .section-products .single-product .part-1 ul li a:hover {
+    color: #923F10;
+  }
+  
+  .section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+  }
+  
+  .section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+  }
+  
+  .section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+  }
+  
+  .section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  
+  /*------------------------------------------
+                 MEDIA QUERIES
+  ------------------------------------------*/
+  @media only screen and (max-width: 990px) {
+    .sorting {
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .products-card {
+      width: 100%;
+    }
+    .sorting .sortopt {
+      padding: 1.6em;
+    }
+  }
+  
+  h1 {
+    padding: 0.4em;
+    letter-spacing: 10px;
+  }
+  
+  @media only screen and (max-width: 870px) {
+    .carousel .carousel-item {
+      height: 450px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .carousel .carousel-item {
+      height: 250px !important;
+    }
+    h1 {
+      font-size: 26px;
+    }
+    .section-products .single-product {
+      border: 1px solid #ccc;
+      padding: 1em;
+      border-radius: 5px;
+    }
+    .section-products .header h2 {
+      font-size: 1.6em;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      padding: 0.7em 0;
+    }
+    .section-products .single-product {
+      height: 70%;
+      width: 70%;
+      display: block;
+      margin: 0 auto;
+    }
+    .section-products .single-product .part-1::before {
+      width: 100%;
+      height: 80%;
+    }
+    .section-products .single-product .part-2 {
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 350px) {
+    .carousel .carousel-item {
+      height: 200px;
+    }
+  }

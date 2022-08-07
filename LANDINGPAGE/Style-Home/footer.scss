@@ -1,0 +1,145 @@
+$link-light-grey: #6c757d;
+$tertiary-color: #923F10;
+$footer-background-light-grey: #212529;
+$footer-background-grey: #1a1d20;
+$social-buttons-circle-dark-grey: #1a1d20;
+$heading-font-family: 'Roboto', sans-serif;
+
+
+::selection {
+  background: $tertiary-color;
+  text-shadow: none;
+}
+
+footer {
+  padding: 2rem 0;
+  background-color: #212529;
+  font-family: $heading-font-family;
+  
+  .nav-item>a {
+    color: #fff;
+  
+    &:hover {
+      color: $tertiary-color;
+      text-decoration: none;
+    }
+  }
+}
+
+.footer-column:not(:first-child) {
+    padding-top: 2rem;
+    @media (min-width: 768px) {
+      padding-top: 0rem;
+    }
+  }
+
+.footer-column {
+  text-align: center;
+
+    .nav-item {
+        .nav-link {
+        padding: 0.1rem 0;
+        }
+        span.nav-link {
+        color: $link-light-grey;
+        }
+        span.footer-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 3.5em;
+        }
+        .fas {
+        margin-right: 0.5rem;
+        }
+  }
+
+ul {
+    display: inline-block; 
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+  background-color: $tertiary-color;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #fff;
+  border-radius: 100%;
+  outline: 0;
+  background-color: $footer-background-grey;
+}
+
+footer .quick-links {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.copyright {
+  color: white;
+}
+
+.text-divider {
+  margin: 1em 0 3em;
+
+  hr {
+    height: 2px;
+    background-color: #fff;
+    width: 55%;
+    margin: 0 auto;
+  }
+}
+
+
+/* --------------------------------
+       NEWSLETTER  BUTTON
+---------------------------------*/
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: $tertiary-color;
+    border-color: $tertiary-color;
+    outline: none !important;
+    margin-top: 1em;
+}
+
+
+.btn{
+	box-shadow: none !important;
+}
+
+.btn-letter {
+  background-color: $tertiary-color !important;
+  border-radius: 0 20px 20px 0;
+  border-color: none !important;
+
+  &:active{
+    border-color: $tertiary-color;
+    box-shadow: none !important;
+  }
+}
+
+
