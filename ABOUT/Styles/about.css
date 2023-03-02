@@ -16,15 +16,13 @@ body {
   color: #fff;
   margin-top: 4em;
 }
-
 .about #tagline {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
-  color: #a09a9a;
+  color: rgb(160, 154, 154);
   margin-bottom: 2em;
 }
-
 .about #description {
   margin: 2em 20em;
 }
@@ -35,14 +33,12 @@ body {
   min-height: 20em;
   padding: 0 3em;
 }
-
 .approach h5,
 .mission h5,
 .customize h5 {
   margin: 4em 0 2em;
   color: #fff;
 }
-
 .approach p,
 .mission p,
 .customize p {
@@ -64,21 +60,17 @@ body {
   background-color: #923F10;
   text-align: center;
 }
-
 .customize h5 {
   margin: 4em 0 3em;
 }
-
 .customize a {
   color: #fff;
   text-decoration: none;
   border: 1px solid #fff;
   padding: 0.8em 3em;
   border-radius: 10px;
-  -webkit-transition: 0.8s;
   transition: 0.8s;
 }
-
 .customize a:hover {
   border-color: #ac5d30;
 }
@@ -90,13 +82,13 @@ body {
 }
 
 .team-subtitle {
-  color: #a09a9a;
+  color: rgb(160, 154, 154);
   font-weight: 100;
   line-height: 1.8em;
 }
 
 .team h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
-  color: #a09a9a;
+  color: rgb(160, 154, 154);
 }
 
 .team .font-weight-medium {
@@ -139,15 +131,9 @@ body {
 
 /* Style the buttons */
 #myBtnContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-top: 1em;
 }
 
@@ -160,17 +146,14 @@ body {
   margin: 0 1em;
   font-size: 12px;
 }
-
 .btnfilt:hover {
   background-color: #ddd;
 }
-
 .btnfilt:active {
   background-color: #666;
   color: white;
   outline: none;
 }
-
 .btnfilt:focus {
   outline: none;
   border-color: none;
@@ -189,7 +172,6 @@ body {
     margin: 2em 5em 3em;
   }
 }
-
 @media (max-width: 1120px) {
   .approach,
   .mission,
@@ -228,7 +210,6 @@ body {
     width: 180px;
   }
 }
-
 @media (max-width: 768px) {
   .approach,
   .mission,
@@ -256,16 +237,10 @@ body {
     width: 90px;
   }
 }
-
 @media (max-width: 450px) {
   #myBtnContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .filterDiv {
     width: 80px;
@@ -273,5 +248,4 @@ body {
   .filterDiv h5 {
     font-size: 10px;
   }
-}
-/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=about.css.map */

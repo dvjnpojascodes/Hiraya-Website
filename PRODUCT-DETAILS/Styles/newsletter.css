@@ -1,8 +1,8 @@
 .form-control {
   display: block;
   width: 100%;
-  min-height: calc(1.5em + .75rem + 2px);
-  padding: .575rem .75rem;
+  min-height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.575rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -14,10 +14,7 @@
   -moz-appearance: none;
   appearance: none;
   border-radius: 52px;
-  -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
-  transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
-  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .card {
@@ -29,8 +26,7 @@
   background-color: #fff;
   border-color: #923F10;
   outline: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .border-rad {
@@ -44,5 +40,4 @@
 .border-rad:hover {
   background-color: #923F10;
   border-color: #923F10;
-}
-/*# sourceMappingURL=newsletter.css.map */
+}/*# sourceMappingURL=newsletter.css.map */

@@ -4,10 +4,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  background-color: #a26d4f;
-}
-
 h3 {
   font-size: 16px;
 }
@@ -22,11 +18,9 @@ h3 {
   width: 90px;
   background-color: #f8f8f9;
 }
-
 .cart-product-imitation img {
   width: 100%;
 }
-
 .cart-product-imitation.xl {
   padding: 120px 0;
 }
@@ -60,7 +54,6 @@ table.shoping-cart-table tr td:last-child {
   margin-top: 0;
   padding: 0;
 }
-
 .ibox::after, .ibox::before {
   display: table;
 }
@@ -110,14 +103,10 @@ button, .sidebtn {
   color: #ffffff;
   border: none !important;
 }
-
 button:hover, .sidebtn:hover {
   background-color: #c17347 !important;
 }
-
 button:active, button:visited, .sidebtn:active, .sidebtn:visited {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   border: none !important;
-}
-/*# sourceMappingURL=cart.css.map */
+}/*# sourceMappingURL=cart.css.map */

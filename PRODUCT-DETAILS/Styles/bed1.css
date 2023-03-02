@@ -41,7 +41,6 @@ body {
 label.radio {
   cursor: pointer;
 }
-
 label.radio input {
   position: absolute;
   top: 0;
@@ -76,8 +75,7 @@ label.radio input:checked + span {
 }
 
 .btn-danger:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .cart i {
@@ -136,7 +134,6 @@ a:hover {
   width: 100%;
   height: 100%;
   z-index: -1;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -146,7 +143,6 @@ a:hover {
 .section-products #product-1 .part-1::before {
   background: url("../Images/Bedroom/bedframe3.png") no-repeat center;
   background-size: cover;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -193,7 +189,6 @@ a:hover {
   padding: 0;
   list-style: none;
   opacity: 0;
-  -webkit-transition: bottom 0.5s, opacity 0.5s;
   transition: bottom 0.5s, opacity 0.5s;
 }
 
@@ -215,7 +210,6 @@ a:hover {
   background-color: #ffffff;
   color: #444444;
   text-align: center;
-  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 
@@ -247,8 +241,7 @@ a:hover {
   width: 100%;
   height: 1px;
   background-color: #444444;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /*------------------------------------------
@@ -259,7 +252,6 @@ a:hover {
     text-align: center;
   }
 }
-
 @media only screen and (max-width: 991px) {
   .products-card {
     width: 100%;
@@ -268,7 +260,6 @@ a:hover {
     padding: 1.6em;
   }
 }
-
 h1 {
   padding: 0.4em;
   letter-spacing: 10px;
@@ -279,7 +270,6 @@ h1 {
     height: 450px !important;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .carousel .carousel-item {
     height: 250px !important;
@@ -312,10 +302,8 @@ h1 {
     text-align: center;
   }
 }
-
 @media only screen and (max-width: 350px) {
   .carousel .carousel-item {
     height: 200px;
   }
-}
-/*# sourceMappingURL=bed1.css.map */
+}/*# sourceMappingURL=bed1.css.map */

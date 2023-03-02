@@ -10,7 +10,6 @@ body {
 .carousel .carousel-item {
   height: 590px !important;
 }
-
 .carousel .carousel-item img {
   position: absolute;
   top: 0;
@@ -22,7 +21,7 @@ body {
 h1 {
   text-align: center;
   padding: 1em 0;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: #fff;
   margin-bottom: 0.5em;
   letter-spacing: 15px;
@@ -31,47 +30,39 @@ h1 {
 .sorting {
   border-bottom: 1px solid #e7e7e7;
 }
-
 .sorting select {
   border: none;
   margin-left: 1em;
   width: 10em;
 }
-
 .sorting label, .sorting p {
-  color: #9b9898;
+  color: rgb(155, 152, 152);
 }
 
 /*-------------------------------------------
     LEFT SIDE | PRODUCT NAVIGATION LINK
 -------------------------------------------*/
 .prod-nav {
-  border-right: 1px solid #d6a7a7;
+  border-right: 1px solid rgb(214, 167, 167);
   padding-bottom: 4.5em;
 }
-
 .prod-nav .input-group {
   margin-top: 1em;
 }
-
 .prod-nav h5 {
   margin-top: 2em;
 }
-
 .prod-nav .btn {
   background-color: #923F10;
   color: #fff;
 }
-
 .prod-nav .btn:hover, .prod-nav .btn:active, .prod-nav .btn:visited, .prod-nav .btn:focus {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
-
 .prod-nav a {
   padding-bottom: 2em;
   font-size: 14px;
-  color: #9b9898;
+  color: rgb(155, 152, 152);
 }
 
 /*-------------------------------------------
@@ -121,7 +112,6 @@ a:hover {
   width: 100%;
   height: 100%;
   z-index: -1;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -131,7 +121,6 @@ a:hover {
 .section-products #product-1 .part-1::before {
   background: url("../Images/LivingRoom/Collection1.png") no-repeat center;
   background-size: cover;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -673,7 +662,6 @@ a:hover {
   padding: 0;
   list-style: none;
   opacity: 0;
-  -webkit-transition: bottom 0.5s, opacity 0.5s;
   transition: bottom 0.5s, opacity 0.5s;
 }
 
@@ -695,7 +683,6 @@ a:hover {
   background-color: #ffffff;
   color: #444444;
   text-align: center;
-  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 
@@ -727,8 +714,7 @@ a:hover {
   width: 100%;
   height: 1px;
   background-color: #444444;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /*------------------------------------------
@@ -739,7 +725,6 @@ a:hover {
     text-align: center;
   }
 }
-
 @media only screen and (max-width: 991px) {
   .products-card {
     width: 100%;
@@ -748,7 +733,6 @@ a:hover {
     padding: 1.6em;
   }
 }
-
 h1 {
   padding: 0.4em;
   letter-spacing: 10px;
@@ -759,7 +743,6 @@ h1 {
     height: 450px !important;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .carousel .carousel-item {
     height: 250px !important;
@@ -792,10 +775,8 @@ h1 {
     text-align: center;
   }
 }
-
 @media only screen and (max-width: 350px) {
   .carousel .carousel-item {
     height: 200px;
   }
-}
-/*# sourceMappingURL=Product.css.map */
+}/*# sourceMappingURL=Product.css.map */
